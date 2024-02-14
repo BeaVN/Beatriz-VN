@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/bootstrap.min.css" rel="stylesheet" >
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="js/crud.js"></script>
+    <title>Añadir Producto</title>
+</head>
+<body>
+    <div class="contenedor-navegacion">
+        <nav>
+            <ul>
+                <li><a href="Principal.html">HomePage</a></li>
+                <li><a href="VerProducto.html">Productos</a></li>
+                <li><a href="AñadirProducto.html">Añadir producto</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div id="contenedor-formulario" class="contenedor-formulario">
+        <div class="formulario">
+            <h2>Añadir Producto</h2>
+            <form id="formulario-producto">
+                <div class="form-group">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                </div>
+                <div class="form-group">
+                    <label for="descripcion">Descripción:</label>
+                    <textarea id="descripcion" name="descripcion" required></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="precio">Precio:</label>
+                    <input type="number" id="precio" name="precio" required>
+                </div>
+                <div class="form-group">
+                    <label for="stock">Stock:</label>
+                    <input type="number" id="stock" name="stock" required>
+                </div>
+                <button type="button" class="btn btn-primary" onclick="añadirProducto()">Añadir</button>
+            </form>
+            <button class="btn btn-primary mt-2" onclick="window.location.href = 'VerProducto.html';">Ver Productos</button>
+        </div>
+    </div>
+
+    <div class="pie-pagina">
+        <footer>Beatriz Velazquez Nuez 2ºDAW</footer>
+    </div>
+</body>
+</html>

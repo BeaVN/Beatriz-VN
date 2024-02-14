@@ -1,0 +1,18 @@
+{
+    "usuarios": [
+      {
+        "usuario": "bea",
+        "contraseña": "1234"
+      },
+
+      {
+        "usuario": "aythami",
+        "contraseña": "canarias123"
+      },
+
+      {
+        "usuario": "root",
+        "contraseña": "1234"
+      }
+    ]
+}

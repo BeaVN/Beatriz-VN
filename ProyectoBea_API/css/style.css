@@ -1,0 +1,116 @@
+.contenedor-navegacion {
+    background-color: #ddd; 
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block; 
+}
+
+nav ul li a {
+    display: inline-block;
+    color: black; 
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #999; 
+    color: white; 
+}
+
+.contenedor-formulario {
+    margin: 20px auto;
+    width: 80%;
+}
+
+.formulario {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border: 1px solid #ddd;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 3px solid #ddd;
+    border-radius: 10px;
+}
+
+.imagen {
+    text-align: center; 
+    padding: 10px; 
+    margin-top: 20px; 
+}
+
+.imagen img {
+    display: inline-block; 
+    max-width: 100%; 
+    height: auto; 
+    border: 2px solid black; 
+    border-radius: 10px; 
+}
+
+.pie-pagina {
+    background-color: #ddd;
+    color:black;
+    text-align: center;
+    padding: 20px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.formulario-login {
+    margin: 20px auto;
+    width: 80%;
+    max-width: 400px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
